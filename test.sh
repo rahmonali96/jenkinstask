@@ -1,2 +1,3 @@
 #!/bin/bash
-mkdir rahmonali
+# mkdir rahmonali
+echo test
