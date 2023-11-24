@@ -5,7 +5,8 @@ pipeline {
       steps{
         sh "echo hello1 > hello.txt"
         sh "chmod 700 test.sh"
-        sh "test.sh"
+        echo "${env.WORKSPACE}"
+        // sh "test.sh"
       }
     }
   }
